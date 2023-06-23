@@ -17,3 +17,16 @@ O objetivo é a criação de função lambda que capture dados de cobrança da A
 - [ ] adicionar um costs.csv com exemplos de valores
 - [ ] Iniciar um (jupyter) notebook para plotar os gráficos
 - [ ] Criar um Dockerfile
+# Running docker environment
+
+Usage: make [`target`]
+
+## Local Development
+
+- `make up`: Start all or specified containers in the foreground.
+- `make build`: Build all or specified containers.
+- `make down`: Stop and remove all or specified containers.
+
+## Other
+
+- `make help`: Show this help.

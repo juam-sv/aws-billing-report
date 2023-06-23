@@ -1,0 +1,24 @@
+
+# build output
+dist/
+.output/
+.astro/
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# macOS-specific files
+.DS_Store
+
+# Local Netlify folder
+.netlify
+
+# environment variables
+.env.production
+.env
+docker-environment
